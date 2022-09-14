@@ -1,0 +1,49 @@
+﻿<Properties StartupConfiguration="{12F44184-A422-5F27-22E6-507969043F15}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/UIWindow/FriendAccWnd.cs">
+    <Files>
+      <File FileName="Assets/Scripts/UIWindow/FriendAccWnd.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/UIWindow/DynamicWnd.cs" />
+      <File FileName="Assets/Scripts/UIWindow/ActivityWnd.cs" />
+      <File FileName="Assets/Scripts/UIWindow/FubenWnd.cs" />
+      <File FileName="Assets/Scripts/UIWindow/FriendWnd.cs" />
+      <File FileName="Assets/Scripts/UIWindow/CreateWnd.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Common/PathDefine.cs" />
+      <File FileName="Assets/Scripts/UIWindow/InfoWnd.cs" />
+      <File FileName="Assets/Scripts/Service/ResSvc.cs" />
+      <File FileName="Assets/Scripts/UIWindow/NewBehaviourScript.cs" />
+      <File FileName="Assets/Scripts/System/MainCitySys.cs" />
+      <File FileName="Assets/Scripts/UIWindow/BattleEndWnd.cs" />
+      <File FileName="Assets/Scripts/UIWindow/TaskWnd.cs" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Client" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Compond" expanded="True" />
+              <Node name="Resources" expanded="True">
+                <Node name="ResCfgs" expanded="True" />
+              </Node>
+              <Node name="Scripts" expanded="True">
+                <Node name="Common" expanded="True" />
+                <Node name="Net" expanded="True" />
+                <Node name="Service" expanded="True" />
+                <Node name="System" expanded="True" />
+                <Node name="UIWindow" expanded="True">
+                  <Node name="FriendAccWnd.cs" selected="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="3d5d0d14-ea18-4dc8-aac0-c5f902a1e0d5" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

@@ -181,35 +181,35 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 4228}
     - Class: 114
-      Script: {instanceID: 4378}
+      Script: {instanceID: 4376}
     - Class: 114
-      Script: {instanceID: 4430}
+      Script: {instanceID: 4428}
     - Class: 114
-      Script: {instanceID: 4586}
+      Script: {instanceID: 4584}
     - Class: 114
-      Script: {instanceID: 4672}
+      Script: {instanceID: 4670}
     - Class: 114
-      Script: {instanceID: 4848}
+      Script: {instanceID: 4846}
     - Class: 114
-      Script: {instanceID: 4878}
+      Script: {instanceID: 4876}
     - Class: 114
-      Script: {instanceID: 5028}
+      Script: {instanceID: 5026}
     - Class: 114
-      Script: {instanceID: 5032}
+      Script: {instanceID: 5030}
     - Class: 114
-      Script: {instanceID: 5132}
+      Script: {instanceID: 5130}
     - Class: 114
-      Script: {instanceID: 5410}
+      Script: {instanceID: 5408}
     - Class: 114
-      Script: {instanceID: 5506}
+      Script: {instanceID: 5504}
     - Class: 114
-      Script: {instanceID: 5570}
+      Script: {instanceID: 5568}
     - Class: 114
-      Script: {instanceID: 5584}
+      Script: {instanceID: 5582}
     - Class: 114
-      Script: {instanceID: 5646}
+      Script: {instanceID: 5644}
     - Class: 114
-      Script: {instanceID: 5740}
+      Script: {instanceID: 5738}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 124
@@ -270,7 +270,7 @@ ScriptsOnlyBuild:
     - Class: 111
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 4470}
+      Script: {instanceID: 4468}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 124
@@ -319,7 +319,7 @@ ScriptsOnlyBuild:
     - Class: 111
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 4558}
+      Script: {instanceID: 4556}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 124
@@ -368,7 +368,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 2498}
     - Class: 114
-      Script: {instanceID: 5646}
+      Script: {instanceID: 5644}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 124
@@ -814,7 +814,7 @@ ScriptsOnlyBuild:
     className: TextContainer
   - hash:
       serializedVersion: 2
-      Hash: c7fc0f464d3045b03a2405bc9a9f47e5
+      Hash: 2e711eb7eb750233f524b41b3e611e9b
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: FriendWnd
@@ -968,12 +968,6 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.EventSystems
     className: EventTrigger
-  - hash:
-      serializedVersion: 2
-      Hash: 27154c379d061855abdeee2b64edebfb
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: FriendInfoWnd
   - hash:
       serializedVersion: 2
       Hash: a81d4c2c1cf3ad164d277d927a193679

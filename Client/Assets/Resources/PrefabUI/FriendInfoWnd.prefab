@@ -163,7 +163,7 @@ GameObject:
   - component: {fileID: 2606476729146532128}
   - component: {fileID: 2606476729146532159}
   m_Layer: 0
-  m_Name: propItem
+  m_Name: propItem6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -210,7 +210,7 @@ GameObject:
   - component: {fileID: 2606476729228538934}
   - component: {fileID: 2606476729228538933}
   m_Layer: 0
-  m_Name: propItem
+  m_Name: propItem3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -415,7 +415,7 @@ GameObject:
   - component: {fileID: 2606476729337077944}
   - component: {fileID: 2606476729337077943}
   m_Layer: 0
-  m_Name: propItem
+  m_Name: propItem5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -752,7 +752,7 @@ GameObject:
   - component: {fileID: 2606476729381058451}
   - component: {fileID: 2606476729381058450}
   m_Layer: 0
-  m_Name: propItem
+  m_Name: propItem4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1603,7 +1603,7 @@ GameObject:
   - component: {fileID: 2606476729730567250}
   - component: {fileID: 2606476729730567249}
   m_Layer: 0
-  m_Name: propItem
+  m_Name: propItem2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1863,7 +1863,7 @@ GameObject:
   - component: {fileID: 2606476729868889537}
   - component: {fileID: 2606476729868889538}
   m_Layer: 0
-  m_Name: txtInfo
+  m_Name: txtInfofrd
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1876,7 +1876,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2606476729868889540}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -2328,7 +2328,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &2606476730033403732
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3084,7 +3084,7 @@ GameObject:
   - component: {fileID: 2606476730395913686}
   - component: {fileID: 2606476730395913685}
   m_Layer: 0
-  m_Name: propItem
+  m_Name: propItem7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4211,7 +4211,7 @@ GameObject:
   - component: {fileID: 2606476730797891986}
   - component: {fileID: 2606476730797891985}
   m_Layer: 0
-  m_Name: propItem
+  m_Name: propItem1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

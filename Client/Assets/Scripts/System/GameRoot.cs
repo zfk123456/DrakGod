@@ -62,12 +62,20 @@ public class GameRoot : MonoBehaviour {
 
     private PlayerData playerData = null;
     public PlayerData PlayerData {
+        //set
+        //{
+        //    playerData = value;
+        //}
         get {
             return playerData;
         }
     }
     public void SetPlayerData(RspLogin data) {
         playerData = data.playerData;
+    }
+    public void SetPlaterData1(Rsppd data)
+    {
+        playerData = data.pd;
     }
 
     public void SetPlayerName(string name) {

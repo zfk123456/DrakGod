@@ -231,7 +231,12 @@ public class MainCitySys : SystemRoot
     {
         friendWnd.OpenFriendInfo(msg.rspLookFriend.pd);
     }
- 
+    public void Rsppd(GameMsg msg)
+    {
+        //friendWnd.Rsppd(msg.rsppd.pd);
+        GameRoot.Instance.SetPlaterData1(msg.rsppd);
+    }
+
     #endregion
     #region Strong Wnd
     public void OpenStrongWnd()

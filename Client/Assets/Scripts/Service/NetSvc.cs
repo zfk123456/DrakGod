@@ -156,7 +156,11 @@ public class NetSvc : MonoBehaviour {
             case CMD.RspLookFriend:
                 MainCitySys.Instance.RspLookFriend(msg);
                 break;
-             
+            case CMD.Rsppd:
+                MainCitySys.Instance.Rsppd(msg);
+                break;
+
+
 
         }
     }

@@ -61,7 +61,6 @@
     <Compile Include="Assets/XLua/Src/LuaTable.cs" />
     <Compile Include="Assets/Scripts/UIWindow/MainCityWnd.cs" />
     <Compile Include="Assets/Scripts/Battle/FSM/StateIdle.cs" />
-    <Compile Include="Assets/Scripts/UIWindow/FriendAccWnd.cs" />
     <Compile Include="Assets/XLua/Src/LuaDLL.cs" />
     <Compile Include="Assets/Scripts/Battle/FSM/StateMove.cs" />
     <Compile Include="Assets/Scripts/UIWindow/BattleEndWnd.cs" />

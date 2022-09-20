@@ -21,7 +21,7 @@ public class FriendSys
     public void Init()
     {
         cacheSvc = CacheSvc.Instance;
-        
+
         PECommon.Log("FriendSys Init Done.");
     }
     //第一次请求传入的pack信息为申请者 发送至被申请人   被申请人在客户端进行逻辑上的处理按钮来发送第二次请求信息  
@@ -85,10 +85,11 @@ public class FriendSys
             PlayerData frd1 = cacheSvc.GetPlayerDataBySession(frdsession);//获取申请玩家数据
 
             //由于已经通过 此时匹配字典通过当前缓存层中获取的名字得到其发送消息时对应的valuse值 即对应msg 
-            if (msgDic.TryGetValue(frd1.name,out MsgPack val)) {
+            if (msgDic.TryGetValue(frd1.name, out MsgPack val))
+            {
                 //获取其对应的pd数据  然后存入数据库中
-               PlayerData frd1_ = cacheSvc.GetPlayerDataBySession(val.session);
-               for(int y = 0; y < frd1_.friendArr.Length; y++)
+                PlayerData frd1_ = cacheSvc.GetPlayerDataBySession(val.session);
+                for (int y = 0; y < frd1_.friendArr.Length; y++)
                 {
                     if (frd1_.friendArr[y] != null)
                     {
@@ -181,7 +182,17 @@ public class FriendSys
                 frd.friendArr[i] = "";
                 //将上面存入缓存层的数据更新入数据库
                 cacheSvc.UpdatePlayerData(frd.id, frd);
+                GameMsg msg = new GameMsg
+                {
+                    cmd = (int)CMD.Rsppd,
+                    rsppd = new Rsppd
+                    {
+                        pd = cacheSvc.GetPlayerDataBySession(pack.session),
 
+                    }
+                };
+                pack.session.SendMsg(msg);
+                break;
             }
             else
             {
@@ -189,6 +200,16 @@ public class FriendSys
                 continue;
             }
         }
+        PlayerData pd = cacheSvc.GetPlayerDataBySession(pack.session);
+        GameMsg msg1 = new GameMsg//返回给发送玩家的回应消息
+        {
+            cmd = (int)CMD.RspFriend,
+            rspFriend = new RspFriend
+            {
+                pd = pd,
+            }
+        };
+        pack.session.SendMsg(msg1);
 
     }
     //查看好友信息
@@ -212,7 +233,7 @@ public class FriendSys
         }
         else
         {
-            msg.err=((int)ErrorCode.NameIsNoExist);
+            msg.err = ((int)ErrorCode.NameIsNoExist);
             pack.session.SendMsg(msg);
         }
 

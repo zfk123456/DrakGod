@@ -1,15 +1,14 @@
 ﻿<Properties StartupConfiguration="{E2612B73-FF68-46CB-86D5-13FF52C96AD8}|Default">
   <MonoDevelop.Ide.ItemProperties.Server PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Server/02System/09FriendSys/FriendSys.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="PEProtocol/GameMsg.cs">
     <Files>
       <File FileName="Server/03Cache/CacheSvc.cs" Line="1" Column="1" />
-      <File FileName="PEProtocol/GameMsg.cs" />
-      <File FileName="Server/02System/03StrongSys/StrongSys.cs" />
+      <File FileName="PEProtocol/GameMsg.cs" Line="210" Column="1" />
+      <File FileName="Server/02System/03StrongSys/StrongSys.cs" Line="1" Column="1" />
       <File FileName="Server/04DB/DBMgr.cs" />
-      <File FileName="Server/02System/09FriendSys/FriendSys.cs" Line="5" Column="23" />
-      <File FileName="Server/01Service/01NetSvc/NetSvc.cs" />
-      <File FileName="Server/02System/06PowerSys/PowerSys.cs" />
-      <File FileName="Server/02System/01LoginSys/LoginSys.cs" />
+      <File FileName="Server/02System/09FriendSys/FriendSys.cs" Line="195" Column="43" />
+      <File FileName="Server/02System/06PowerSys/PowerSys.cs" Line="1" Column="1" />
+      <File FileName="Server/02System/01LoginSys/LoginSys.cs" Line="82" Column="35" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -18,6 +17,7 @@
             <Node name="PEProtocol" expanded="True">
               <Node name="References" expanded="True" />
               <Node name="Properties" expanded="True" />
+              <Node name="GameMsg.cs" selected="True" />
             </Node>
             <Node name="Server" expanded="True">
               <Node name="References" expanded="True" />
@@ -36,9 +36,7 @@
                 <Node name="06PowerSys" expanded="True" />
                 <Node name="07TaskSys" expanded="True" />
                 <Node name="08FubenSys" expanded="True" />
-                <Node name="09FriendSys" expanded="True">
-                  <Node name="FriendSys.cs" selected="True" />
-                </Node>
+                <Node name="09FriendSys" expanded="True" />
               </Node>
               <Node name="03Cache" expanded="True" />
               <Node name="04DB" expanded="True" />

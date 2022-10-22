@@ -147,7 +147,6 @@ public class ActivityWnd : WindowRoot
         Text txt = go1.transform.Find("Text").GetComponent<Text>();//以后减少面板拖拽ui组件的方式尽量使用这种！！
         //
         txt.text = "zfk好帅";
-    
 
     }
     #endregion

@@ -325,7 +325,7 @@ public class ResSvc : MonoBehaviour {
         else {
             XmlDocument doc = new XmlDocument();
             doc.LoadXml(xml.text);
-
+           
             XmlNodeList nodLst = doc.SelectSingleNode("root").ChildNodes;
 
             for (int i = 0; i < nodLst.Count; i++) {

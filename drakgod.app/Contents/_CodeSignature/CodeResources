@@ -6,7 +6,7 @@
 	<dict>
 		<key>Resources/Data/Managed/Assembly-CSharp.dll</key>
 		<data>
-		YnQQ6CWE1cPTL/ILfTB06MTh8NE=
+		+F4IAvDB0bXXchw+EDLu/Rt9yqc=
 		</data>
 		<key>Resources/Data/Managed/Mono.Security.dll</key>
 		<data>
@@ -107,6 +107,26 @@
 		<key>Resources/Data/Managed/System.dll</key>
 		<data>
 		XEu+TCCXFV5htGymUcfqiOetZi4=
+		</data>
+		<key>Resources/Data/Managed/UniTask.Addressables.dll</key>
+		<data>
+		U8lotrjxAkXIw1a90g5GkgbohDA=
+		</data>
+		<key>Resources/Data/Managed/UniTask.DOTween.dll</key>
+		<data>
+		MKQIrHWiiz9TEhFF2o3fauTFYpA=
+		</data>
+		<key>Resources/Data/Managed/UniTask.Linq.dll</key>
+		<data>
+		W6z1XxfQRB6AodeuKx68mSjTWOo=
+		</data>
+		<key>Resources/Data/Managed/UniTask.TextMeshPro.dll</key>
+		<data>
+		w/rUD6rjIEYnbBepirYCB+6lGNY=
+		</data>
+		<key>Resources/Data/Managed/UniTask.dll</key>
+		<data>
+		lgKO2cjk/mv39Nyd3Cex0V7rZZ8=
 		</data>
 		<key>Resources/Data/Managed/Unity.Analytics.DataPrivacy.dll</key>
 		<data>
@@ -454,11 +474,11 @@
 		</data>
 		<key>Resources/Data/RuntimeInitializeOnLoads.json</key>
 		<data>
-		9atPzIgvo6jJwH2JsHeLvlm7jC0=
+		7P551tICBIJVpfLSPNawvT65Wt8=
 		</data>
 		<key>Resources/Data/ScriptingAssemblies.json</key>
 		<data>
-		KRwvOZts8tUev5AQzS0BAAd4tT8=
+		1KIDYRE7NWffYrdHLYVKrzwf9To=
 		</data>
 		<key>Resources/Data/app.info</key>
 		<data>
@@ -470,23 +490,23 @@
 		</data>
 		<key>Resources/Data/globalgamemanagers</key>
 		<data>
-		OeFQUD7xBsci4GbqJFHNavqIOAo=
+		gPSqxUn/0Z5VvB/VdfMoKvWbsW4=
 		</data>
 		<key>Resources/Data/globalgamemanagers.assets</key>
 		<data>
-		L90ucNGnfFlsz/zkR0b9nPiuVJE=
+		+LEQgi7e3HkQ+xLN3OddRHMshmU=
 		</data>
 		<key>Resources/Data/level0</key>
 		<data>
-		vGHu0g4yaV/cz8Do8IemAO2IDU8=
+		4zXIgR0OQG6waJfPvf2FROf5FTI=
 		</data>
 		<key>Resources/Data/level1</key>
 		<data>
-		Rk7nRg8gTD9qtph+A40IV2EHSaU=
+		WQIsUbvlbHP2tV7n0SkHafS+zOg=
 		</data>
 		<key>Resources/Data/level2</key>
 		<data>
-		V/yF38ZfRnR91nnbsjXcDmIIHeE=
+		C4VizxUbAzsreHTXzSMMLBCOKGI=
 		</data>
 		<key>Resources/Data/level2.resS</key>
 		<data>
@@ -494,11 +514,11 @@
 		</data>
 		<key>Resources/Data/level3</key>
 		<data>
-		eue/3tV7JRFHBFIqh1gPOar5X7k=
+		yy4sl/5JjiCiy72WEue2GetPYys=
 		</data>
 		<key>Resources/Data/resources.assets</key>
 		<data>
-		wV+R/yDm4TsbhXJOstEt8nmLp4M=
+		OhugOVGBPpsLHgY3E8z0CKbXdPg=
 		</data>
 		<key>Resources/Data/resources.assets.resS</key>
 		<data>
@@ -510,7 +530,7 @@
 		</data>
 		<key>Resources/Data/sharedassets0.assets</key>
 		<data>
-		6vl6qlhP257YeXddFtFDDJPTmzk=
+		zYVlO1XqatoCcoLktcHvEBHephA=
 		</data>
 		<key>Resources/Data/sharedassets0.assets.resS</key>
 		<data>
@@ -518,15 +538,15 @@
 		</data>
 		<key>Resources/Data/sharedassets1.assets</key>
 		<data>
-		iA05Cl7Hnb/gZyaYGp8/F8G5isc=
+		+fUSAba/An28TPYrmf0qbmsVB0E=
 		</data>
 		<key>Resources/Data/sharedassets2.assets</key>
 		<data>
-		nLgcFRMx8uZNmB+TdUg7P1JWNXQ=
+		jzFnRT0uN4hIUxuAVQw/xXGQ2I0=
 		</data>
 		<key>Resources/Data/sharedassets3.assets</key>
 		<data>
-		MY4drFW9f3B8iS1GPXGlubsAq7w=
+		WqRpFfJ4+/LmMwCsYr/USRL1aQY=
 		</data>
 		<key>Resources/DefaultPreferences.plist</key>
 		<data>
@@ -722,7 +742,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			wmPwd01gNaphEmBdE9Fy6s0PHVuBzeMXVpvGARX5Tnk=
+			UrSjYKnLLe1NnvKOQ8AP+owEkhXDMR5ECByYhVcXknY=
 			</data>
 		</dict>
 		<key>Resources/Data/Managed/Mono.Security.dll</key>
@@ -898,6 +918,41 @@
 			<key>hash2</key>
 			<data>
 			CwEtRxCmh4dE54f4qhBYqkZp/Ey7oH8K/lA7SYECPIc=
+			</data>
+		</dict>
+		<key>Resources/Data/Managed/UniTask.Addressables.dll</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			/3C+zk4pQh+rsOQLkVdYNfn25CizMEwuZulJfUoK48c=
+			</data>
+		</dict>
+		<key>Resources/Data/Managed/UniTask.DOTween.dll</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			70JUTTXvFXSX5gmp+DART38zaDW+nZ9D2H4MGnFKndg=
+			</data>
+		</dict>
+		<key>Resources/Data/Managed/UniTask.Linq.dll</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			zTwk1LVdPI3IOVHxkm4jJdcJNi0O171ENFYLNjsKXnk=
+			</data>
+		</dict>
+		<key>Resources/Data/Managed/UniTask.TextMeshPro.dll</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			wPdPA2STj+0fLePrjhFF0mNNmLDTJxpqhPKU+C6uRAc=
+			</data>
+		</dict>
+		<key>Resources/Data/Managed/UniTask.dll</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			LCkSnvzOGYQjNDEygfQYqKcmvTRP3X8hktaFJoO8uQ0=
 			</data>
 		</dict>
 		<key>Resources/Data/Managed/Unity.Analytics.DataPrivacy.dll</key>
@@ -1506,14 +1561,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			vfY4CyhKAtQX2hfeBxr4//aMlxOh1uIn69hI0m9cq0c=
+			HFpTkBNbrYn1P0kr4hmIzbkZdNkYx+hqwAf9fFIommQ=
 			</data>
 		</dict>
 		<key>Resources/Data/ScriptingAssemblies.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			OMKwGN+BkbY/IyDOlg0Mgv1BEqPW0ssPF6qv9jwBZ7M=
+			JsMXBB+HqMuG90ubS0omUjPtVbrHdmBnWuCkifjNu6Q=
 			</data>
 		</dict>
 		<key>Resources/Data/app.info</key>
@@ -1534,35 +1589,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			DHDZ5yEuKBnK/2dr69m7zQ1EBFG43JpJZLMoqChopG0=
+			cVaqc3/LOGNlaqXmQnpiypAurL1CGj1PeMnCjsdaTgI=
 			</data>
 		</dict>
 		<key>Resources/Data/globalgamemanagers.assets</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			tKdQVCgZlN2PmC2YO+6mhDLWb+0zYs4qRe1HtKZii04=
+			oR7ApTV/IIYEsaU93C4/whk953QrMR92PgWThsMA3bg=
 			</data>
 		</dict>
 		<key>Resources/Data/level0</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			HXffRAj9d9xsTTwGcwEYpQNfkBam8vRdNeV6uHUUfKQ=
+			9gOoMsPY2omJYjXJ3oTuXxw95pP2epdWF32ZBHjYZ4A=
 			</data>
 		</dict>
 		<key>Resources/Data/level1</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			jZXjBr+TmwCKivoySO2fBlVlB/MpwLMdaB8oThQ6nuU=
+			GXnHK1YP3p87AM8lopRp9dJU5GsemFsQ2Udaja4pfQ0=
 			</data>
 		</dict>
 		<key>Resources/Data/level2</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			O44vesEmlSyu5UL8kAk5nL4aY7/IYNqK0yaFTHl4ZtA=
+			swrjJAMuptnechsN6cv9hMZEjJ0U5/JsZgi6uLE/qW8=
 			</data>
 		</dict>
 		<key>Resources/Data/level2.resS</key>
@@ -1576,14 +1631,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			qYapF56cwWZmK9GFNeDFpddTNw/xBmA7TlG6cRjyYWo=
+			hGBvVUgKurnJhL8JSr5uIMZNtK6D0WbDCstIAVpQgyc=
 			</data>
 		</dict>
 		<key>Resources/Data/resources.assets</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			3Wi6VJqwcjoltWRDqvatudtooP4q+oaiJFLfZwB1j8I=
+			zFT982odUVxzP9BDXLQr06+UnUblqzaHwelziUxuLkM=
 			</data>
 		</dict>
 		<key>Resources/Data/resources.assets.resS</key>
@@ -1604,7 +1659,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			5K85pklQizqnD/0Al6eMHMdEzGl4MJpppNkaV3iZj74=
+			bivxV5YYuWNQvYWTWB3pvHcjfhCiey6VQ9gQc311Svo=
 			</data>
 		</dict>
 		<key>Resources/Data/sharedassets0.assets.resS</key>
@@ -1618,21 +1673,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			rHggEblYTI14+y8Ddo3qDmzhTdo3tP25hshhvxWvM5w=
+			9FATOn49bg5gvA2YzD/Tv6LTnYJ3PmmCguyMv8Ojn9A=
 			</data>
 		</dict>
 		<key>Resources/Data/sharedassets2.assets</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			o42sdah1X6gqytRQ+6FL8VDMrS/BuvuphmNUALUIYHQ=
+			06IPd0Nq5a49Bzu4VBN3dv0r5XOJuDv4wxaO1KAE5b8=
 			</data>
 		</dict>
 		<key>Resources/Data/sharedassets3.assets</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			HQogaTAd94V5eLgR3mzv+SXHG5DUAuZ6UtLLaQcboJs=
+			BLMHlWXIsnCuxy7RcOsmbDRmQvarLZ7oGmAhWRb4aC0=
 			</data>
 		</dict>
 		<key>Resources/DefaultPreferences.plist</key>

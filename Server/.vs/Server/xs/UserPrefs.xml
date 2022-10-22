@@ -1,23 +1,24 @@
 ﻿<Properties StartupConfiguration="{E2612B73-FF68-46CB-86D5-13FF52C96AD8}|Default">
   <MonoDevelop.Ide.ItemProperties.Server PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="PEProtocol/GameMsg.cs">
+  <MonoDevelop.Ide.Workbench>
     <Files>
       <File FileName="Server/03Cache/CacheSvc.cs" Line="1" Column="1" />
-      <File FileName="PEProtocol/GameMsg.cs" Line="210" Column="1" />
-      <File FileName="Server/02System/03StrongSys/StrongSys.cs" Line="1" Column="1" />
+      <File FileName="PEProtocol/GameMsg.cs" Line="12" Column="22" />
+      <File FileName="Server/02System/03StrongSys/StrongSys.cs" />
       <File FileName="Server/04DB/DBMgr.cs" />
-      <File FileName="Server/02System/09FriendSys/FriendSys.cs" Line="195" Column="43" />
-      <File FileName="Server/02System/06PowerSys/PowerSys.cs" Line="1" Column="1" />
-      <File FileName="Server/02System/01LoginSys/LoginSys.cs" Line="82" Column="35" />
+      <File FileName="Server/02System/09FriendSys/FriendSys.cs" Line="48" Column="28" />
+      <File FileName="Server/02System/06PowerSys/PowerSys.cs" />
+      <File FileName="Server/02System/01LoginSys/LoginSys.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Server" expanded="True">
             <Node name="PEProtocol" expanded="True">
-              <Node name="References" expanded="True" />
+              <Node name="References" expanded="True">
+                <Node name="PESocket" selected="True" />
+              </Node>
               <Node name="Properties" expanded="True" />
-              <Node name="GameMsg.cs" selected="True" />
             </Node>
             <Node name="Server" expanded="True">
               <Node name="References" expanded="True" />

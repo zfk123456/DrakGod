@@ -35,7 +35,6 @@
   <ItemGroup>
     <Compile Include="00Common\ServerRoot.cs" />
     <Compile Include="00Common\ServerStart.cs" />
-    <Compile Include="01Service\01NetSvc\NetSvc.cs" />
     <Compile Include="01Service\01NetSvc\ServerSession.cs" />
     <Compile Include="01Service\02CfgSvc\CfgSvc.cs" />
     <Compile Include="01Service\03TimerSvc\PETimer.cs" />
@@ -52,6 +51,9 @@
     <Compile Include="04DB\DBMgr.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="02System\09FriendSys\FriendSys.cs" />
+    <Compile Include="01Service\01NetSvc\NetSvc.cs" />
+    <Compile Include="01Service\04ABSvc\DownloadAB.cs" />
+    <Compile Include="02System\10VersionSys\VersionSys.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -75,6 +77,8 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="02System\09FriendSys\" />
+    <Folder Include="01Service\04ABSvc\" />
+    <Folder Include="02System\10VersionSys\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

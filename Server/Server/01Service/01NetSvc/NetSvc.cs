@@ -108,6 +108,9 @@ public class NetSvc
             case CMD.ReqLookFriend:
                 FriendSys.Instance.ReqLookFriend(pack);
                 break;
+            case CMD.ReqABDownlod:
+                VersionSys.Instance.ReqABDownlod(pack);//请求校验ab版本号请求
+                break;
         }
     }
 }

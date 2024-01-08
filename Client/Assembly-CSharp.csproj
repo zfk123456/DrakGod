@@ -125,6 +125,7 @@
     <Compile Include="Assets/XLua/Gen/PackUnpack.cs" />
     <Compile Include="Assets/Scripts/Service/ResSvc.cs" />
     <Compile Include="Assets/Scripts/Service/PETimer.cs" />
+    <Compile Include="Assets/Scripts/Service/ABSvc.cs" />
     <Compile Include="Assets/XLua/Tutorial/CSharpCallLua/CSCallLua.cs" />
     <Compile Include="Assets/XLua/Src/CodeEmit.cs" />
     <Compile Include="Assets/XLua/Gen/Tutorial_BaseClassWrap.cs" />
@@ -150,6 +151,7 @@
     <Compile Include="Assets/Scripts/UIWindow/TaskWnd.cs" />
     <Compile Include="Assets/Scripts/UIWindow/InfoWnd.cs" />
     <Compile Include="Assets/XLua/Src/InternalGlobals.cs" />
+    <Compile Include="Assets/Scripts/Common/GameSettings.cs" />
     <Compile Include="Assets/Scripts/Battle/Manager/MapMgr.cs" />
     <Compile Include="Assets/Scripts/Common/WindowRoot.cs" />
   </ItemGroup>
@@ -164,6 +166,7 @@
     <None Include="Assets/Scripts/Net/PESocket.dll" />
     <None Include="Assets/Compond/MakeChar/Shader/MogoFakeLight.shader" />
     <None Include="Assets/Compond/MakeScene/SceneShader/MogoTransparentDiffuse.shader" />
+    <None Include="Assets/Resources/ResCfgs/version.xml" />
     <None Include="Assets/XLua/Resources/perf/profiler.lua.txt" />
     <None Include="Assets/Compond/Shader/MogoSkybox.shader" />
     <None Include="Assets/Resources/ResCfgs/strong.xml" />

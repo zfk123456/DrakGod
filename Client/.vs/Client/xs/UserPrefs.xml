@@ -1,34 +1,40 @@
 ﻿<Properties StartupConfiguration="{12F44184-A422-5F27-22E6-507969043F15}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/UIWindow/FriendWnd.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/System/LoginSys.cs">
     <Files>
-      <File FileName="Assets/Scripts/UIWindow/ActivityWnd.cs" Line="127" Column="24" />
-      <File FileName="Assets/Scripts/UIWindow/PlayerCtrlWnd.cs" />
-      <File FileName="Assets/Scripts/Common/BaseData.cs" />
-      <File FileName="Assets/Scripts/Battle/Controller/Controller.cs" />
-      <File FileName="Assets/Scripts/UIWindow/FriendWnd.cs" Line="76" Column="18" />
+      <File FileName="Assets/Scripts/Common/GameSettings.cs" Line="14" Column="11" IsPinned="True" />
+      <File FileName="Assets/Scripts/Common/LoopDragonAni.cs" />
+      <File FileName="Assets/Scripts/Common/MainCityMap.cs" />
+      <File FileName="Assets/Scripts/Common/PathDefine.cs" />
+      <File FileName="Assets/Scripts/Common/PEListener.cs" />
+      <File FileName="Assets/Scripts/Common/PETools.cs" />
+      <File FileName="Assets/Scripts/Common/SystemRoot.cs" />
+      <File FileName="Assets/Scripts/Common/TestPlayer.cs" />
+      <File FileName="Assets/Scripts/Common/TriggerData.cs" />
+      <File FileName="Assets/Scripts/Common/WindowRoot.cs" />
+      <File FileName="Assets/Scripts/Net/ClientSession.cs" />
+      <File FileName="Assets/Scripts/Service/ABSvc.cs" />
+      <File FileName="Assets/Scripts/Service/AudioSvc.cs" />
+      <File FileName="Assets/Scripts/Service/NetSvc.cs" />
+      <File FileName="Assets/Scripts/Service/PETimer.cs" />
+      <File FileName="Assets/Scripts/Service/TimerSvc.cs" />
+      <File FileName="Assets/Scripts/Service/ResSvc.cs" />
+      <File FileName="Assets/Scripts/System/BattleSys.cs" />
+      <File FileName="Assets/Scripts/System/GameRoot.cs" />
+      <File FileName="Assets/Scripts/System/LoginSys.cs" Line="40" Column="27" />
+      <File FileName="Assets/Scripts/System/MainCitySys.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Client" expanded="True">
-            <Node name="Assets" expanded="True">
-              <Node name="Resources" expanded="True">
-                <Node name="ResCfgs" expanded="True" />
-              </Node>
+            <Node name="Assets" expanded="True" selected="True">
               <Node name="Scripts" expanded="True">
-                <Node name="Battle" expanded="True">
-                  <Node name="Controller" expanded="True" />
-                  <Node name="Entity" expanded="True" />
-                  <Node name="FSM" expanded="True" />
-                  <Node name="Manager" expanded="True" />
-                </Node>
+                <Node name="Battle" expanded="True" />
                 <Node name="Common" expanded="True" />
                 <Node name="Net" expanded="True" />
                 <Node name="Service" expanded="True" />
                 <Node name="System" expanded="True" />
-                <Node name="UIWindow" expanded="True">
-                  <Node name="ActivityWnd.cs" selected="True" />
-                </Node>
+                <Node name="UIWindow" expanded="True" />
               </Node>
             </Node>
           </Node>
@@ -38,7 +44,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="66bf73c1-2c70-4986-83cb-3cf10b7b27f5" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="5a9d3b5a-f702-4553-b9b4-762dad7febab" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

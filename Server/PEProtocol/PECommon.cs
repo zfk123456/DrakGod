@@ -64,4 +64,7 @@ public class PECommon
 
     public const int PowerAddSpace = 5;//分钟
     public const int PowerAddCount = 2;
+
+    //当前服务端版本号
+    public static string clientVersion = "1.0.0";
 }

@@ -128,4 +128,8 @@ public class Constants {
     //普攻连招有效间隔
     public static int ComboSpace = 500;
 
+
+    //当前客户端版本号
+    public static string clientVersion = "1.0.0";
+
 }

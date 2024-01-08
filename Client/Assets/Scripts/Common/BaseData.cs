@@ -112,3 +112,9 @@ public class BattleProps {
     public int pierce;
     public int critical;
 }
+////版本号配置数据
+//public class Versionata : BaseData<Versionata>
+//{
+//    public int versio;//1.0.0第一个1用于表示大版本号 第二三数字用于表示热更后的版本号  用.分割
+
+//}

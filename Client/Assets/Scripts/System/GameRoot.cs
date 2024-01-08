@@ -14,7 +14,7 @@ public class GameRoot : MonoBehaviour {
 
     private void Start() {
         Instance = this;
-        DontDestroyOnLoad(this);
+        DontDestroyOnLoad(this);//不能销毁（唯一游戏入口）
         PECommon.Log("Game Start...");
 
         ClearUIRoot();

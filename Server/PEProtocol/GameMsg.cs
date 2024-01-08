@@ -51,7 +51,8 @@ namespace PEProtocol
         public ReqFBFightEnd reqFBFightEnd;
         public RspFBFightEnd rspFBFightEnd;
 
-
+        public ReqABDownlod reqABDownlod;
+        public RspABDownlod rspABDownlod;
     }
 
     #region 登录相关
@@ -310,7 +311,19 @@ namespace PEProtocol
         public string[] taskArr;
     }
     #endregion
-
+    #region AB包下载相关
+    [Serializable]
+    public class ReqABDownlod
+    {
+        public string VersionNumber;
+    }
+    [Serializable]
+    public class RspABDownlod
+    {
+        public string VersionNumber;
+        public bool IsNeedABDownlod;
+    }
+    #endregion
     public enum ErrorCode
     {
         None = 0,//没有错误
@@ -376,6 +389,10 @@ namespace PEProtocol
         RspFBFight = 302,
         ReqFBFightEnd = 303,
         RspFBFightEnd = 304,
+
+        //ab包下载相关为自身学习拓展内容从4开始
+        ReqABDownlod=401,
+        RspABDownlod=402,
     }
 
     public class SrvCfg

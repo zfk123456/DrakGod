@@ -19,6 +19,7 @@ public class ResSvc : MonoBehaviour {
 
     public void InitSvc() {
         Instance = this;
+        //使用反序列化将xml中的数据转化为代码数据
         InitRDNameCfg(PathDefine.RDNameCfg);
         InitMonsterCfg(PathDefine.MonsterCfg);
         InitMapCfg(PathDefine.MapCfg);
@@ -30,6 +31,8 @@ public class ResSvc : MonoBehaviour {
         InitSkillMoveCfg(PathDefine.SkillMoveCfg);
         InitSkillActionCfg(PathDefine.SkillActionCfg);
 
+
+        
         PECommon.Log("Init ResSvc...");
     }
 
@@ -45,6 +48,8 @@ public class ResSvc : MonoBehaviour {
 
 
     private Action prgCB = null;
+    //public bool IsABDownload;
+    //异步加载场景  采用场景管理器
     public void AsyncLoadScene(string sceneName, Action loaded) {
         GameRoot.Instance.loadingWnd.SetWndState();
 
@@ -62,8 +67,35 @@ public class ResSvc : MonoBehaviour {
             }
         };
     }
+    //赋予初值都为0表示必须进行一次检测后才能变为1进入游戏
+    public float IsLoadab=0;
+
+    //由于上面异步加载场景为整个框架组件通用 因此抽象一个专门用于热更的异步加载场景的函数
+    public void AsyncLoadSceneAB(string sceneName, Action loaded)
+    {
+        GameRoot.Instance.loadingWnd.SetWndState();
+        //开启异步加载场景
+        AsyncOperation sceneAsync = SceneManager.LoadSceneAsync(sceneName);
+        prgCB = () => {
+            float val = sceneAsync.progress;
+            //在这设置一个获取当前ab下载进度的回调 再在if条件中加上当当前ab下载回调进度显示完成后才可以销毁当前委托和异步加载场景的请求
+            
+            GameRoot.Instance.loadingWnd.SetProgress(val);
+            if (val == 1&&IsLoadab==1)
+            {
+                if (loaded != null)
+                {
+                    loaded();
+                }
+                prgCB = null;
+                sceneAsync = null;
+                GameRoot.Instance.loadingWnd.SetWndState(false);
+            }
+        };
+    }
 
     private void Update() {
+        //运行当前加载的脚本后 每一帧查询当前是否有prgCB委托
         if (prgCB != null) {
             prgCB();
         }
@@ -154,6 +186,7 @@ public class ResSvc : MonoBehaviour {
     //}
 
     #region InitCfgs
+    //反向序列化
     #region 随机名字
     private List<string> surnameLst = new List<string>();
     private List<string> manLst = new List<string>();
@@ -819,5 +852,48 @@ public class ResSvc : MonoBehaviour {
         return null;
     }
     #endregion
+
+    //#region 版本号配置
+    //private void InitVersionCfg(string path)
+    //{
+    //    TextAsset xml = Resources.Load<TextAsset>(path);
+    //    if (!xml)
+    //    {
+    //        PECommon.Log("xml file:" + path + " not exist", LogType.Error);
+    //    }
+    //    else
+    //    {
+    //        XmlDocument doc = new XmlDocument();
+    //        doc.LoadXml(xml.text);
+
+    //        XmlNodeList nodLst = doc.SelectSingleNode("root").ChildNodes;
+
+    //        for (int i = 0; i < nodLst.Count; i++)
+    //        {
+    //            XmlElement ele = nodLst[i] as XmlElement;
+
+    //            if (ele.GetAttributeNode("ID") == null)
+    //            {
+    //                continue;
+    //            }
+    //            //int ID = Convert.ToInt32(ele.GetAttributeNode("ID").InnerText);
+    //            foreach (XmlElement e in nodLst[i].ChildNodes)
+    //            {
+    //                switch (e.Name)
+    //                {
+    //                    case "version":
+    //                        {
+    //                            string version = root.SelectSingleNode("version").InnerText;
+    //                        }
+    //                        break;
+    //                }
+    //            }
+
+    //        }
+
+    //    }
+
+    //}
+    //#endregion
     #endregion
 }

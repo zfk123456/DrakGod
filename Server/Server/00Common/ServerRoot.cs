@@ -39,6 +39,7 @@ public class ServerRoot
         TaskSys.Instance.Init();
         FubenSys.Instance.Init();
         FriendSys.Instance.Init();
+        VersionSys.Instance.Init();
     }
 
     public void Update()

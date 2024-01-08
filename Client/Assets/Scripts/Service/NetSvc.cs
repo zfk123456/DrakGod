@@ -159,7 +159,10 @@ public class NetSvc : MonoBehaviour {
             case CMD.Rsppd:
                 MainCitySys.Instance.Rsppd(msg);
                 break;
-
+            case CMD.RspABDownlod:
+                LoginSys.Instance.RspABDownlod(msg);
+                break;
+                   
 
 
         }
